@@ -21,7 +21,7 @@ int dfs(int i, int j)
 {
   vis[i][j] = true;
 
-  int cnt = 1; // count this room
+  int cnt = 1;
 
   for (int k = 0; k < 4; k++)
   {
